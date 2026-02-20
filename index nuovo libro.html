@@ -53,28 +53,33 @@
 <form class="row g-3">
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Nome Autore</label>
-    <input type="email" class="form-control" id="inputEmail4">
+    <input type="email" class="form-control" id="inputEmail4" placeholder="Inserisi il nome D'autore">
   </div>
   <div class="col-md-6">
     <label for="inputPassword4" class="form-label">Cognome Autore</label>
-    <input type="password" class="form-control" id="inputPassword4">
+    <input type="password" class="form-control" id="inputPassword4" placeholder="Inserisci il congome d'autore">
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Titolo</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <input type="text" class="form-control" id="inputAddress" placeholder="Inserisci il titolo del libro">
   </div>
-  <div class="col-12">
+  <div class="col-6">
     <label for="inputAddress2" class="form-label">Genere</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    <input type="text" class="form-control" id="inputAddress2" placeholder="scegli il genere">
   </div>
-  <div class="col-md-6">
+  <div class="col-md-4">
     <label for="inputCity" class="form-label">Anno Pubblicazione</label>
-    <input type="text" class="form-control" id="inputCity">
+    <input type="text" class="form-control" id="inputCity" placeholder="Inserisci l'anno">
   </div>
   <div class="col-md-2">
     <label for="inputZip" class="form-label">ISBN#</label>
-    <input type="text" class="form-control" id="inputZip">
+    <input type="text" class="form-control" id="inputZip" placeholder="Inserisci il codice ISBN#">
   </div>
+  <hr>
+  <div class="form-floating" >Note
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Inserisci eventueli note sul libro</label>
+</div>
   <div class="col-12">
     <div class="form-check">
       <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -84,7 +89,7 @@
     </div>
   </div>
   <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
+    <button type="submit" class="btn btn-primary">aggiungi libro</button>
   </div>
 </form>
 </main>
